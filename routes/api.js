@@ -147,7 +147,7 @@ var len = 15
         
  
  async function cekApiKey(api) {
- 	ap = await zahirr.findOne({apikey:api})
+ 	ap = await zahirr.findOne({apikey:Yannapi})
  return ap;
  }
 router.get('/find', async (req, res, next) => {
